@@ -13,7 +13,7 @@ A Behavior Driven Development framework which uses Page Object Model and Singlet
 **Note**: The report will be generated in any case after Run the test
 
 ### Reports
-Add the end of each execution you will find a report, If you click on the link you will be redirect
+At the end of each execution you will find a report, If you click on the link you will be redirect
 to see the report online, Which will last for 24 hours, as in the following image 
 
 ![img_2.png](img_2.png)
@@ -37,7 +37,7 @@ this concept allows us to easily change the browser we want
 ##### File Reade 
 to implement Data Driven Testing if needed
 ##### Utilities and Enums
-Utilities and enums as a good practice for saving static variables and reusing common methods
+Utilities and enums as a good practice to storage variables and reusing common methods
 
-Assertions have been handled with hamcrest for java
-Tests are running against ** Chrome **
+- Assertions have been handled with hamcrest for java
+- Tests are running against ** Chrome **
