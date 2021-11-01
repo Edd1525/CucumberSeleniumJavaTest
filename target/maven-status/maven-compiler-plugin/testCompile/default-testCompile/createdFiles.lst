@@ -1,0 +1,4 @@
+stepDefinitions\HomeSteps.class
+stepDefinitions\CartSteps.class
+runner\TestRunner.class
+stepDefinitions\ProductDetailsSteps.class
