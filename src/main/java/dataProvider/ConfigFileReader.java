@@ -25,6 +25,7 @@ public class ConfigFileReader {
 			throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
 		}
 	}
+
 	public String getDriverPath() {
 		String driverPath = properties.getProperty("driverPath");
 		if(driverPath !=null) {
@@ -34,6 +35,7 @@ public class ConfigFileReader {
 			throw new RuntimeException("driverPath not specified in the Configuration.properties file.");
 		}
 	}
+
 	public long getImplicitlyWait() {
 		String implicitlyWait = properties.getProperty("implicitlyWait");
 		if(implicitlyWait != null) {
@@ -51,6 +53,7 @@ public class ConfigFileReader {
 			throw new RuntimeException("url not specified in the Configuration.properties file.");
 		}
 	}
+
 	public DriverType getBrowser() {
 		String browserName = properties.getProperty("browserName");
 		if(browserName == null || browserName.equalsIgnoreCase("chrome")) {
@@ -72,6 +75,7 @@ public class ConfigFileReader {
 			return EnvironmentType.REMOTE;
 		}else throw new RuntimeException("Browser Name Key value in Configuration.properties is not matched : " + environment);
 	}
+
 	public Boolean getBrowserWindowSize() {
 		String windowSize = properties.getProperty("windowMaximize");
 		if(windowSize != null) return Boolean.valueOf(windowSize);

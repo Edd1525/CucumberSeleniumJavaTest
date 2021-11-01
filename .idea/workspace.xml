@@ -8,6 +8,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bdd.selenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bdd.selenium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataProvider/ConfigFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataProvider/ConfigFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/EnvironmentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/EnvironmentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/FileRead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ProductDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProductDetailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/facebookFeatures/singUp.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/facebookFeatures/singUp.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataProvider/ConfigFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataProvider/ConfigFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/enums/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/enums/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/managers/FileRead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -24,7 +24,6 @@ public class ProductDetailPage {
 	@FindBy(how = How.ID, using = "add-to-cart-button")
 	private WebElement addToCardBtn;
 
-
 	public void waitForProductsResults() {
 		int timeoutToGetResults = 10;
 		WebDriverWait wait = new WebDriverWait(driver, timeoutToGetResults);

@@ -1,10 +1,10 @@
 # Selenium Cucumber and Java, Automation Tool
 A Behavior Driven Development framework which uses Page Object Model and Singleton design pattern
 
-### Scenarios for the first point (Facebook sing up) 
+## Scenarios for the first point (Facebook sing up) 
 [singUp.feature](src/test/resources/facebookFeatures/singUp.feature)
 
-## Getting Started
+### Getting Started
 * Install Java(7 or 8) & Maven on your local machine
 
 1. Resolve all dependencies within the project with Maven
@@ -15,7 +15,7 @@ A Behavior Driven Development framework which uses Page Object Model and Singlet
 
 **Note**: The report will be generated in any case after Run the test
 
-### Reports
+## Reports
 At the end of each execution you will find a report, If you click on the link you will be redirect
 to see the report online, Which will last for 24 hours, as in the following image 
 
@@ -37,8 +37,6 @@ The purpose of the Page Object Manager is to create the page object and ensure t
 object is not created over and over again.
 ##### Driver Manager
 this concept allows us to easily change the browser we want
-##### File Reade 
-to implement Data Driven Testing if needed
 ##### Utilities and Enums
 Utilities and enums as a good practice to storage variables and reusing common methods
 
