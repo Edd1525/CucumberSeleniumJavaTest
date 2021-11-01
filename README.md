@@ -1,6 +1,9 @@
 # Selenium Cucumber and Java, Automation Tool
 A Behavior Driven Development framework which uses Page Object Model and Singleton design pattern
 
+### Scenarios for the first point (Facebook sing up) 
+[singUp.feature](src\test\resources\facebookFeatures\singUp.feature)
+
 ## Getting Started
 * Install Java(7 or 8) & Maven on your local machine
 
@@ -39,5 +42,9 @@ to implement Data Driven Testing if needed
 ##### Utilities and Enums
 Utilities and enums as a good practice to storage variables and reusing common methods
 
-- Assertions have been handled with hamcrest for java
-- Tests are running against ** Chrome **
+###### Finall Anotation 
+* Assertions have been handled with Hamcrest
+* Tests are running against ** Chrome **
+* Bdd Style has been written in the third person for the test, 
+and in the first person for the examples from point 1,
+ there is no really defined standard for this.
