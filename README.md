@@ -2,7 +2,7 @@
 A Behavior Driven Development framework which uses Page Object Model and Singleton design pattern
 
 ### Scenarios for the first point (Facebook sing up) 
-[singUp.feature](src\test\resources\facebookFeatures\singUp.feature)
+[singUp.feature](src/test/resources/facebookFeatures/singUp.feature)
 
 ## Getting Started
 * Install Java(7 or 8) & Maven on your local machine
