@@ -10,8 +10,9 @@ Feature: Sing Up
     And I validate the facebook mail in the inbox
     Then I should be able to create my facebook account
     Examples:
-      | name   | last name  | email            | password  | birthday   | sex  |
-      | Edward | Bustamante | edward@gmail.com | uFV98!Nz^ | 10/01/1889 | Male |
+      | name   | last name  | email            | password    | birthday   | sex    |
+      | Edward | Bustamante | edward@gmail.com | uFV98!Nz^   | 10/01/1889 | Male   |
+      | Jenny  | Gomez      | Jenny@gmail.com  | 1*DuF*IANz! | 12/06/1994 | Female |
   # For this type of scenario when a large amount of data is required, it is better to handle it in a .json (Data Driven)
 
   Scenario Outline: Sing Up should be Success with phone number
@@ -21,8 +22,9 @@ Feature: Sing Up
     And I validate the code message in the application
     Then I should be able to create my facebook account
     Examples:
-      | name   | last name  | phoneNumber     | password | birthday   | sex  |
-      | Edward | Bustamante | +(57) 300000000 | 123      | 10/01/1889 | Male |
+      | name   | last name  | phoneNumber     | password    | birthday   | sex    |
+      | Edward | Bustamante | +(57) 300000000 | uFV98!Nz^   | 10/01/1889 | Male   |
+      | Jenny  | Gomez      | +(57) 310000000 | 1*DuF*IANz! | 12/06/1994 | Female |
 
   Scenario Outline: Sing Up with password doesn't comply with the Rules should failed
     Given I am a new user
@@ -32,6 +34,7 @@ Feature: Sing Up
     Examples:
       | name   | last name  | password | <invalid message>                               |
       | Edward | Bustamante | 123      | password doesn't comply with the creating rules |
+      | Jenny  | Gomez      |          | password doesn't comply with the creating rules |
 
   Scenario Outline: Sing Up with invalid email should be failed
     Given I am a new user
@@ -39,8 +42,9 @@ Feature: Sing Up
     And I provide a invalid <email>
     Then I should see a <invalid message>
     Examples:
-      | name   | last name  | email        | password  | birthday   | sex  | <invalid message> |
-      | Edward | Bustamante | edward@e2ras | 3PbT@h6Ky | 10/01/1889 | Male | invalid email     |
+      | name   | last name  | email        | password    | birthday   | sex    | <invalid message> |
+      | Edward | Bustamante | edward@e2ras | 3PbT@h6Ky   | 10/01/1889 | Male   | invalid email     |
+      | Jenny  | Gomez      | aaa@         | 1*DuF*IANz! | 12/06/1994 | Female | invalid email     |
 
   Scenario Outline: Sing Up with existing email should be failed
     Given I am a new user
