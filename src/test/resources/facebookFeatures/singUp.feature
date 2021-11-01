@@ -10,9 +10,9 @@ Feature: Sing Up
     And I validate the facebook mail in the inbox
     Then I should be able to create my facebook account
     Examples:
-      | name   | last name  | email            | password    | birthday   | sex    |
-      | Edward | Bustamante | edward@gmail.com | uFV98!Nz^   | 10/01/1889 | Male   |
-      | Jenny  | Gomez      | Jenny@gmail.com  | 1*DuF*IANz! | 12/06/1994 | Female |
+      | name   | last name  | email                 | password    | birthday   | sex    |
+      | Edward | Bustamante | edward8988@gmail.com  | uFV98!Nz^   | 10/01/1889 | Male   |
+      | Jenny  | Gomez      | JennyGo7987@gmail.com | 1*DuF*IANz! | 12/06/1994 | Female |
   # For this type of scenario when a large amount of data is required, it is better to handle it in a .json (Data Driven)
 
   Scenario Outline: Sing Up should be Success with phone number
